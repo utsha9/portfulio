@@ -1,0 +1,109 @@
+*{
+    font-family: 'Open Sans',sans-serif;
+    /*margin: 0;
+    padding: 0;*/
+}
+header{
+    background-color: blanchedalmond;
+    background-image: url(developer.png),url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left, bottom right;
+    background-size: contain;
+}
+.nav{
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+
+}
+.btn-orange{
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-white{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid orangered;
+    color:orangered;
+}
+.main{
+    padding: 0px 120px;
+    width: 35%;
+}
+.banner{
+    display: flex;
+    align-items: center;
+
+}
+.portrait{
+    width: 500px;
+    height: auto;
+    align:right;
+}
+.about-section{
+    width: 1280px;
+margin: 40px auto;
+  text-align: center; 
+  background-color: blanchedalmond;
+  padding: 5px;
+}
+.about{
+
+}
+
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-flex h5{
+    color: #000;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.about-flex p{
+    margin: 0px;
+}
+.about-section-sec{
+    width: 1280px;
+    margin: 40px auto;
+      text-align: center; 
+      padding: 5px;
+}
+.what-do{
+    gap: 10px;
+}
+.what-do .name-div{
+    background-color: white;
+    padding: 5px;
+    text-align: justify;
+    border: 1px solid #dedcdc;
+}
+.what-do .name-div img{
+width: 50px;
+text-align:left;
+}
+.what-do .name-div{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #dedcdc;
+    
+    justify-content: space-between;
+}
+.about-desing {
+    text-align: left;
+  }
